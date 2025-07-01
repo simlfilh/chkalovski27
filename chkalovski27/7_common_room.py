@@ -3,82 +3,85 @@ import streamlit as st
 st.title("🧺 Бытовое пространство")
 st.divider()
 
-st.markdown("""
-        <style>
-            .colored-container {
-               background-color: #FFFFFF; 
-               border-radius: 10px;      
-               padding: 20px;           
-               margin-bottom: 20px;     
-               color: black !important; 
-               line-height: 1.0;
-               font-size: 21px;
-            }
-            .highlight-green {
-                background-color: #C8E6C9; 
-                border-radius: 10px;
-                padding-left: 20px;
-                margin-bottom: 20px;
-                position: relative;
-            }
-            .highlight-red {
-                background-color: #FFCDD2; 
-                border-radius: 10px;
-                padding-left: 20px;
-                margin-bottom: 20px;
-                position: relative;
-            }
-            .highlight-blue {
-                background-color: #B3E5FC;
-                border-radius: 10px;
-                padding-left: 20px;
-                margin-bottom: 20px;
-                position: relative;
-            }
-            .text-indent-content {
-                position: relative;
-                color: black;
-                line-height: 1.4;
-            }
-        </style>
-        <div class="colored-container">
-                <div class="highlight-blue">
-                    <div class="text-indent-content">
-                        <h3>🛌 Бельевая | 1 ЭТАЖ</h3> 
-                    </div>
-                </div> 
-            <br> 
-            <p>В бельевой можно получить/поменять:</p>  
-            <p>• подушку</p>
-            <p>• одеяло</p>
-            <p>• покрывало</p>
-            <p>• шторы</p>
-            <p>• наматрасник</p>
-            <p>• полный комплект постельного белья</p>
-            <br>
-            <p>Постельное белье меняется 1 раз в неделю бесплатно: отдали грязное - тут же получили чистое.</p>
-        </div>
-                """, unsafe_allow_html=True)
-    
-st.markdown("""
-        <div class="colored-container">
-                <div class="highlight-blue">
-                    <div class="text-indent-content">
-                        <h3>🕐 Режим работы:</h3> 
-                    </div>
-                </div>
-            <p>ПН: приема нет</p>  
-            <p>ВТ: приема нет</p>  
-            <p>СР: приема нет</p>
-            <p>ЧТ: 9:30 — 12:00, 12:30 — 16:30</p>
-            <p>ПТ: приема нет</p>
-        </div>
-                """, unsafe_allow_html=True)
-
-col1, col2 = st.columns([1, 2])
+col1, col2 = st.columns([1, 1])
 with col1:
-    st.image("рекреации_ч27/прачечная_ч27.jpg")
+        st.markdown("""
+                <style>
+                    .colored-container {
+                       background-color: #FFFFFF; 
+                       border-radius: 10px;      
+                       padding: 20px;           
+                       margin-bottom: 20px;     
+                       color: black !important; 
+                       line-height: 1.0;
+                       font-size: 21px;
+                    }
+                    .highlight-green {
+                        background-color: #C8E6C9; 
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        margin-bottom: 20px;
+                        position: relative;
+                    }
+                    .highlight-red {
+                        background-color: #FFCDD2; 
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        margin-bottom: 20px;
+                        position: relative;
+                    }
+                    .highlight-blue {
+                        background-color: #B3E5FC;
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        margin-bottom: 20px;
+                        position: relative;
+                    }
+                    .text-indent-content {
+                        position: relative;
+                        color: black;
+                        line-height: 1.4;
+                    }
+                </style>
+                <div class="colored-container">
+                        <div class="highlight-blue">
+                            <div class="text-indent-content">
+                                <h3>🛌 Бельевая | 1 ЭТАЖ</h3> 
+                            </div>
+                        </div> 
+                    <br> 
+                    <p>В бельевой можно получить/поменять:</p>  
+                    <p>• подушку</p>
+                    <p>• одеяло</p>
+                    <p>• покрывало</p>
+                    <p>• шторы</p>
+                    <p>• наматрасник</p>
+                    <p>• полный комплект постельного белья</p>
+                    <br>
+                    <p>Постельное белье меняется 1 раз в неделю бесплатно: отдали грязное - тут же получили чистое.</p>
+                </div>
+                        """, unsafe_allow_html=True)
 with col2:
+        st.markdown("""
+                <div class="colored-container">
+                        <div class="highlight-blue">
+                            <div class="text-indent-content">
+                                <h3>🕐 Режим работы:</h3> 
+                            </div>
+                        </div>
+                    <p>ПН: приема нет</p>  
+                    <p>ВТ: приема нет</p>  
+                    <p>СР: приема нет</p>
+                    <p>ЧТ: 9:30 — 12:00, 12:30 — 16:30</p>
+                    <p>ПТ: приема нет</p>
+                </div>
+                        """, unsafe_allow_html=True)
+st.divider()
+
+col3, col4 = st.columns([1, 1])
+with col3:
+    st.image("рекреации_ч27/прачечная_ч27.jpg")
+with col4:
     st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">
