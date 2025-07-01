@@ -39,15 +39,10 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
-
 st.divider()
 
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Беззубова Зоя Николаевна 👩🏼‍💼")
 st.markdown("""
-    <p>📞 <a href="tel:+78124589730">(812) 458-97-30</a></p>
+    <p>📞 <a href="tel:+78124589730">(812)458-97-30</a></p>
             """, unsafe_allow_html=True)
-
-st.divider()
-
-st.markdown("🆘 [Чат со студенческим советом](https://t.me/StudentCouncil_27_bot)")
