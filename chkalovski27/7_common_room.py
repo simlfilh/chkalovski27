@@ -75,7 +75,9 @@ st.markdown("""
         </div>
                 """, unsafe_allow_html=True)
 
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns([1, 2])
+with col1:
+    st.image("рекреации_ч27/прачечная_ч27.jpg")
 with col2:
     st.markdown("""
         <div class="colored-container">
@@ -93,8 +95,6 @@ with col2:
                 </div>
         </div>
                 """, unsafe_allow_html=True)
-with col1:
-    st.image("рекреации_ч27/прачечная_ч27.jpg")
 st.divider()
 
 st.markdown("**Контакты для связи:**")
