@@ -86,26 +86,28 @@ with col1:
 with col2:
     st.markdown("""
         <div class="colored-container">
-                <div class="highlight-green">
-                    <div class="text-indent-content">
-                        <h3>Староста общежития</h3> 
-                    </div>
+            <div class="highlight-green">
+                <div class="text-indent-content">
+                    <h3>Староста общежития</h3> 
                 </div>
+            </div>
             <p><b>Кейглер Илья Сергеевич</b></p>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-                <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://vk.com/keygler_27" target="_blank" style="margin-left: 5px; font-size: 25px;">
-                    <i class="fab fa-vk"></i></a>
-                    <p style="margin: 0; font-size: 23px;">Связаться в VK</p>
-                    <br>
-                    <a href="https://t.me/keygler_27" target="_blank" style="margin-left: 5px; font-size: 25px;">
-                    <i class="fab fa-telegram"></i></a>
-                    <p style="margin: 0; font-size: 23px;">Связаться в TG</p>
-                </div>
+            <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
+                <a href="https://vk.com/keygler_27" target="_blank" style="margin-left: 5px; font-size: 25px;">
+                    <i class="fab fa-vk"></i>
+                </a>
+                <p style="margin: 0; font-size: 23px;">Связаться в VK</p>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
+                <a href="https://t.me/keygler_27" target="_blank" style="margin-left: 5px; font-size: 25px;">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <p style="margin: 0; font-size: 23px;">Связаться в TG</p>
+            </div>
             <p>📞 <a href="tel:+79527017929">+79527017929</a></p>
-            <br>
         </div>
-                """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
 st.divider()
 
 # 2 ЭТАЖ
