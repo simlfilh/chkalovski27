@@ -69,7 +69,7 @@ st.markdown("""
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("администрация/заведующий_ч27.jpg", width=250)
+    st.image("администрация_ч27/заведующий_ч27.jpg", width=250)
 with col2:
     st.markdown("""
         <div class="colored-container">
