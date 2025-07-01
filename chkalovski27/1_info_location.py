@@ -57,16 +57,13 @@ with col1:
             }
         </style>
         <div class="colored-container">
+            <h3>Адрес: Санкт-Петербург, Чкаловский пр-т, д. 27</h3>
                 <div class="text-indent-content">
-                    <h3>Адрес: Санкт-Петербург, Чкаловский пр-т, д. 27</h3>
+                    <p class="highlight-blue">Наиболее удобные маршруты:</p>
                 </div>
-            <br>
-            <br>
             <br>
             <p>→ от м. Петроградская 10 минут пешком</p>  
             <p>→ от м. Чкаловская 10 минут пешком</p>  
-            <br>
-            <br>
             <br>
         </div>
                 """, unsafe_allow_html=True)
