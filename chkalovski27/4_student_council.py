@@ -111,6 +111,8 @@ with col2:
         """, unsafe_allow_html=True)
 st.divider()
 
+st.header("Старосты")
+
 # 2 ЭТАЖ
 col7, col8 = st.columns([1, 3])
 with col7:
@@ -118,7 +120,7 @@ with col7:
 with col8:
     st.markdown("""
         <div class="colored-container">
-            <div class="highlight-blue">
+            <div class="highlight-blue-2">
                 <div class="text-indent-content">
                     <h3>Староста 2 этажа</h3> 
                 </div>
@@ -149,7 +151,7 @@ with col9:
 with col10:
     st.markdown("""
         <div class="colored-container">
-            <div class="highlight-blue">
+            <div class="highlight-blue-2">
                 <div class="text-indent-content">
                     <h3>Староста 3 этажа</h3> 
                 </div>
@@ -180,7 +182,7 @@ with col11:
 with col12:
     st.markdown("""
         <div class="colored-container">
-            <div class="highlight-blue">
+            <div class="highlight-blue-2">
                 <div class="text-indent-content">
                     <h3>Староста 4 этажа</h3> 
                 </div>
@@ -210,7 +212,6 @@ st.write("Заведующий общежитием: Беззубова Зоя �
 st.markdown("""
     <p>📞 <a href="tel:+78124589730">(812) 458-97-30</a></p>
             """, unsafe_allow_html=True)
-
 st.divider()
 
 st.markdown("🆘 [Чат со студенческим советом](https://t.me/StudentCouncil_27_bot)")
