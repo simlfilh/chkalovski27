@@ -24,7 +24,7 @@ st.markdown("""
     <div class="colored-container">
         <div style="display: flex; align-items: center; gap: 20px;">
             <a href="https://t.me/Chkalovsky_27_bot" target="_blank">
-            <i class="fab fa-telegram"></i></a>
+            <i class="fab fa-telegram fa-2x"></i></a>
             <h3>БОТ Общежития №2.</h3>
         </div>
     </div>
@@ -34,7 +34,7 @@ st.markdown("""
     <div class="colored-container">
         <div style="display: flex; align-items: center; gap: 20px;">
             <a href="https://t.me/StudentCouncil_27_bot" target="_blank">
-            <i class="fab fa-telegram"></i></a>
+            <i class="fab fa-telegram fa-2x"></i></a>
             <h3>БОТ обращений к студенческому совету общежития №2.</h3>
         </div>
     </div>
