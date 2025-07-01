@@ -86,7 +86,7 @@ with col4:
         <div class="colored-container">
                 <div class="highlight-blue">
                     <div class="text-indent-content">
-                        <h3>🧺 Прачечная | 2 и 3 ЭТАЖИ</h3> 
+                        <h3>🧺 Прачечная | 2 И 3 ЭТАЖИ</h3> 
                     </div>
                 </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
