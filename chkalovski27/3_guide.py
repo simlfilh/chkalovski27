@@ -84,21 +84,27 @@ with col2:
             <p>📞 <a href="tel:+78124589730">(812) 458-97-30</a></a></p>
             <p>📩 <a href="mailto:bezzubova.z@unecon.ru">bezzubova.z@unecon.ru</a></p>
             <br> 
-            <div class="highlight-green">
-                <div class="text-indent-content">
-                    <h3>🕐 Часы приёма студентов</h3> 
-                </div>
-            </div>
-        <br>
-        <p>ПН: 9:00 — 16:30</p>  
-        <p>ВТ: 9:00 — 16:30</p>  
-        <p>СР: приема нет</p>
-        <p>ЧТ: 9:00 — 16:30</p>
-        <p>ПТ: 9:00 — 16:00</p>
-        <br>
-        <p>🍜 ОБЕД: 12:00 — 12:30</p>
         </div>
                 """, unsafe_allow_html=True)
+
+st.markdown("""
+    <div class="colored-container">
+        <div class="highlight-green">
+            <div class="text-indent-content">
+                <h3>🕐 Часы приёма студентов</h3> 
+            </div>
+        </div>
+    <br>
+    <p>ПН: 9:00 — 16:30</p>  
+    <p>ВТ: 9:00 — 16:30</p>  
+    <p>СР: приема нет</p>
+    <p>ЧТ: 9:00 — 16:30</p>
+    <p>ПТ: 9:00 — 16:00</p>
+    <br>
+    <p>🍜 ОБЕД: 12:00 — 12:30</p>
+    </div>
+            """, unsafe_allow_html=True)
+st.divider()
 
 st.markdown("""
     <div class="colored-container">
@@ -107,9 +113,7 @@ st.markdown("""
                     <h3>Паспортист</h3> 
                 </div>
             </div>
-        <br>
-        <p><b>Беззубов Николай Иванович<b></p>
-        <br>
+        <p><b>🙍‍♂️️ Беззубов Николай Иванович<b></p>
     </div>
             """, unsafe_allow_html=True)
 
@@ -125,5 +129,6 @@ st.write("Заведующий общежитием: Беззубова Зоя �
 st.markdown("""
     <p>📞 <a href="tel:+78124589730">(812) 458-97-30</a></p>
             """, unsafe_allow_html=True)
+st.divider()
 
 st.markdown("🆘 [Чат со студенческим советом](https://t.me/StudentCouncil_27_bot)")
