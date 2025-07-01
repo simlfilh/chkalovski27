@@ -58,7 +58,7 @@ with col1:
         </style>
         <div class="colored-container">
                 <div class="text-indent-content">
-                    <h3 class="highlight-blue">Адрес: Санкт-Петербург, Чкаловский пр-т, д. 27</h3>
+                    <h3>Адрес: Санкт-Петербург, Чкаловский пр-т, д. 27</h3>
                 </div>
             <br>
             <br>
