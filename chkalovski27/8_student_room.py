@@ -5,7 +5,7 @@ st.divider()
 
 col1, col2 = st.columns(2)
 with col1:
-    st.image("рекреации/спортзал_ч27.jpg")
+    st.image("рекреации_ч27/спортзал_ч27.jpg")
 with col2:
     st.markdown("""
         <style>
@@ -65,7 +65,7 @@ with col2:
 
 col11, col12 = st.columns(2)
 with col11:
-    st.image("рекреации/коворкинг_ч27.jpg")
+    st.image("рекреации_ч27/коворкинг_ч27.jpg")
 with col12:
     st.markdown("""
         <div class="colored-container">
