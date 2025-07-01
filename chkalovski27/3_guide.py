@@ -114,6 +114,7 @@ st.markdown("""
         <p><b>🙍‍♂️️ Беззубов Николай Иванович<b></p>
     </div>
             """, unsafe_allow_html=True)
+st.divider()
 
 st.markdown("""
     <div class="colored-container">
