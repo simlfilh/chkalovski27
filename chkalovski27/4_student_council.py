@@ -82,7 +82,7 @@ st.divider()
 st.header("Председатель студенческого совета")
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("администрация/председатель_ч27.jpg", width=250)
+    st.image("администрация_ч27/председатель_ч27.jpg", width=250)
 with col2:
     st.markdown("""
         <div class="colored-container">
@@ -116,7 +116,7 @@ st.divider()
 # 2 ЭТАЖ
 col7, col8 = st.columns([1, 3])
 with col7:
-    st.image("администрация/староста_2_ч27.jpg", width=250)
+    st.image("администрация_ч27/староста_2_ч27.jpg", width=250)
 with col8:
     st.markdown("""
         <div class="colored-container">
@@ -149,7 +149,7 @@ with col8:
 # 3 ЭТАЖ
 col9, col10 = st.columns([1, 3])
 with col9:
-    st.image("администрация/староста_3_ч27.jpg", width=250)
+    st.image("администрация_ч27/староста_3_ч27.jpg", width=250)
 with col10:
     st.markdown("""
         <div class="colored-container">
@@ -183,7 +183,7 @@ with col10:
 # 4 ЭТАЖ
 col11, col12 = st.columns([1, 3])
 with col11:
-    st.image("администрация/староста_4_ч27.jpg", width=250)
+    st.image("администрация_ч27/староста_4_ч27.jpg", width=250)
 with col12:
     st.markdown("""
         <div class="colored-container">
