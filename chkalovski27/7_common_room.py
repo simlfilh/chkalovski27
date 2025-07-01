@@ -3,11 +3,7 @@ import streamlit as st
 st.title("🧺 Бытовое пространство")
 st.divider()
 
-col1, col2 = st.columns(2)
-with col1:
-    st.image("рекреации_ч27/прачечная_ч27.jpg")
-with col2:
-    st.markdown("""
+st.markdown("""
         <style>
             .colored-container {
                background-color: #FFFFFF; 
@@ -48,26 +44,6 @@ with col2:
         <div class="colored-container">
                 <div class="highlight-blue">
                     <div class="text-indent-content">
-                        <h3>🧺 Прачечная | 2 и 3 ЭТАЖИ</h3> 
-                    </div>
-                </div>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-                <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-                    <a href="https://t.me/Landromaticbot" target="_blank" style="margin-left: 5px; font-size: 25px;">
-                    <i class="fab fa-telegram"></i></a>
-                    <p style="margin: 0; font-size: 21px;">Оплата: в банкомате или через 
-                    телеграм-бот "Ландроматик"</p>
-                </div>
-        </div>
-                """, unsafe_allow_html=True)
-st.divider()
-
-col4, col5 = st.columns([2, 1])
-with col4:
-    st.markdown("""
-        <div class="colored-container">
-                <div class="highlight-blue">
-                    <div class="text-indent-content">
                         <h3>🛌 Бельевая | 1 ЭТАЖ</h3> 
                     </div>
                 </div> 
@@ -83,8 +59,8 @@ with col4:
             <p>Постельное белье меняется 1 раз в неделю бесплатно: отдали грязное - тут же получили чистое.</p>
         </div>
                 """, unsafe_allow_html=True)
-with col5:
-    st.markdown("""
+    
+st.markdown("""
         <div class="colored-container">
                 <div class="highlight-blue">
                     <div class="text-indent-content">
@@ -99,10 +75,33 @@ with col5:
         </div>
                 """, unsafe_allow_html=True)
 
+col1, col2 = st.columns([2, 1])
+with col2:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-blue">
+                    <div class="text-indent-content">
+                        <h3>🧺 Прачечная | 2 и 3 ЭТАЖИ</h3> 
+                    </div>
+                </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+                <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
+                    <a href="https://t.me/Landromaticbot" target="_blank" style="margin-left: 5px; font-size: 25px;">
+                    <i class="fab fa-telegram"></i></a>
+                    <p style="margin: 0; font-size: 21px;">Оплата: в банкомате или через 
+                    телеграм-бот "Ландроматик"</p>
+                </div>
+        </div>
+                """, unsafe_allow_html=True)
+with col1:
+    st.image("рекреации_ч27/прачечная_ч27.jpg")
+st.divider()
+
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Беззубова Зоя Николаевна 👩🏼‍💼")
 st.markdown("""
     <p>📞 <a href="tel:+78124589730">(812) 458-97-30</a></p>
             """, unsafe_allow_html=True)
+st.divider()
 
 st.markdown("🆘 [Чат со студенческим советом](https://t.me/StudentCouncil_27_bot)")
