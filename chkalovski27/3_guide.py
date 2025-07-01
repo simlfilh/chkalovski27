@@ -78,12 +78,10 @@ with col2:
                         <h3> Заведующий студенческим общежитием</h3> 
                     </div>
                 </div>
-            <br>
             <p><b>Беззубова Зоя Николаевна<b></p>  
             <br>  
             <p>📞 <a href="tel:+78124589730">(812) 458-97-30</a></a></p>
             <p>📩 <a href="mailto:bezzubova.z@unecon.ru">bezzubova.z@unecon.ru</a></p>
-            <br> 
         </div>
                 """, unsafe_allow_html=True)
 
