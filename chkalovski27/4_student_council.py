@@ -106,7 +106,6 @@ with col2:
                 </a>
                 <p style="margin: 0; font-size: 23px;">Связаться в TG</p>
             </div>
-            <br>
             <p>📞 <a href="tel:+79527017929">+79527017929</a></p>
         </div>
         """, unsafe_allow_html=True)
@@ -139,7 +138,6 @@ with col8:
                 </a>
                 <p style="margin: 0; font-size: 23px;">Связаться в TG</p>
             </div>
-            <br>
             <p>📞 <a href="tel:+79833868796">+79833868796</a></p>
         </div>
         """, unsafe_allow_html=True)
@@ -171,7 +169,6 @@ with col10:
                 </a>
                 <p style="margin: 0; font-size: 23px;">Связаться в TG</p>
             </div>
-            <br>
             <p>📞 <a href="tel:+79969187449">+79969187449</a>, <a href="tel:+79650502403">+79650502403</a></p>
         </div>
         """, unsafe_allow_html=True)
@@ -203,7 +200,6 @@ with col12:
                 </a>
                 <p style="margin: 0; font-size: 23px;">Связаться в TG</p>
             </div>
-            <br>
             <p>📞 <a href="tel:+79500714190">+79500714190</a></p>
         </div>
         """, unsafe_allow_html=True)
