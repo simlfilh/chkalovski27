@@ -75,7 +75,7 @@ with col2:
         <div class="colored-container">
                 <div class="highlight-green">
                     <div class="text-indent-content">
-                        <h3> Заведующий студенческим общежитием</h3> 
+                        <h3> Заведующий общежитием</h3> 
                     </div>
                 </div>
             <p><b>Беззубова Зоя Николаевна<b></p>  
