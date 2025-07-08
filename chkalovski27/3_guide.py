@@ -47,9 +47,8 @@ st.markdown("""
         <br>
         <p>В администрацию общежития входят:</p>
         <p>• заведующий общежитием;</p>
-        <p>• заместитель заведующего общежитием;</p>
-        <p>• комендант;</p>
         <p>• заведующий хозяйственной частью.</p>
+         <p>• паспортист.</p>
         <br>
         <p>В общежитии также организовано студенческое самоуправление в виде Студенческого совета общежития.</p>
     </div>
@@ -104,7 +103,11 @@ st.markdown("""
             """, unsafe_allow_html=True)
 st.divider()
 
-st.markdown("""
+col3, col4 = st.columns([1, 3])
+with col3:
+    st.image("администрация_ч27/паспортист_ч27.jpg", width=250)
+with col4:
+    st.markdown("""
     <div class="colored-container">
             <div class="highlight-green">
                 <div class="text-indent-content">
