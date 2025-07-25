@@ -125,4 +125,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.divider()
 
-st.markdown("🆘 [Чат со студенческим советом](https://t.me/StudentCouncil_27_bot)")
+st.markdown("""
+    <div class="custom-links">
+        🆘 <a href="https://t.me/StudentCouncil_27_bot">Чат со студенческим советом</a>
+    </div>
+""", unsafe_allow_html=True)
