@@ -78,8 +78,24 @@ st.divider()
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Беззубова Зоя Николаевна 👩🏼‍💼")
 st.markdown("""
-    <p>📞 <a href="tel:+78124589730,4295">(812) 458-97-30, доб. 4295</a></p>
-            """, unsafe_allow_html=True)
+    <style>
+        .custom-links a {
+            color: white !important;
+            text-decoration: none; 
+        }
+        .custom-links a:hover {
+            color: #ccc !important;  
+            text-decoration: underline; 
+        }
+    </style>
+    <div class="custom-links">
+        <p>📞 <a href="tel:+78124589730,4295">(812) 458-97-30, доб. 4295</a></p>
+    </div>
+""", unsafe_allow_html=True)
 st.divider()
 
-st.markdown("🆘 [Чат со студенческим советом](https://t.me/StudentCouncil_27_bot)")
+st.markdown("""
+    <div class="custom-links">
+        🆘 <a href="https://t.me/StudentCouncil_27_bot">Чат со студенческим советом</a>
+    </div>
+""", unsafe_allow_html=True)
