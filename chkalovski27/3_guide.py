@@ -119,6 +119,26 @@ with col4:
             """, unsafe_allow_html=True)
 st.divider()
 
+col5, col6 = st.columns([1, 3])
+with col5:
+    st.image("администрация_ч27/завхоз_ч27.jpg", width=250)
+with col6:
+    st.markdown("""
+        <div class="colored-container">
+                <div class="highlight-green">
+                    <div class="text-indent-content">
+                        <h3>Заведующий хозяйственной частью</h3> 
+                    </div>
+                </div>
+            <br>
+            <p><b>Ульянова Наталия Петровна<b></p>
+            <br> 
+            <p>📞 <a href="tel:+78124589730,4298">(812) 458-97-30, доб. 4298</a></p>
+            <p>📩 <a href="mailto:ulyanova.np@unecon.ru">ulyanova.np@unecon.ru</a></p>
+        </div>
+                """, unsafe_allow_html=True)
+st.divider()
+
 st.markdown("""
     <div class="colored-container">
         <p>🚪 Вся администрация общежития расположена на первом этаже общежития.</p>
