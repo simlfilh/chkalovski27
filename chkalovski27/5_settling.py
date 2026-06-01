@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("👫 Заселение в общежитие СПбГЭУ №3")
+st.title("👫 Заселение в общежитие СПбГЭУ №2")
 st.divider()
 
 st.markdown("""
