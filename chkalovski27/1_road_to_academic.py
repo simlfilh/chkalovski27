@@ -10,7 +10,6 @@ st.title("🏛️ Дорога до учебных корпусов СПбГЭУ
 st.markdown("### 📍 От общежития №2 по адресу Чкаловский пр-т, д. 27")
 st.divider()
 
-
 st.markdown("""
     <style>
         .colored-container {
@@ -127,7 +126,7 @@ with col1:
 
 with col2:
     map_html_1 = """
-      <div style="position:relative;overflow:hidden;border-radius: 10px;">
+    <div style="position:relative;overflow:hidden;border-radius: 10px;">
         <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
           style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
           Санкт‑Петербург
@@ -144,9 +143,9 @@ with col2:
           allowfullscreen="true" 
           style="position:relative;border-radius: 10px;border: none;">
         </iframe>
-      </div>
-      """
-      st.components.v1.html(map_html_1, height=460)
+    </div>
+    """
+    st.components.v1.html(map_html_1, height=460)
 
 st.divider()
 
@@ -164,7 +163,7 @@ with col3:
             <br>
             <p>📍 Адрес: <b>Москательный переулок, д. 4</b></p>  
             <div class="route-info">
-                <h4>🗺️  Маршрут от Чкаловского пр., д. 27</h4>
+                <h4>🗺️ Маршрут от Чкаловского пр., д. 27</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
                     <span><strong>~4.5 км</strong></span>
@@ -187,22 +186,22 @@ with col3:
 with col4:
     map_html_2 = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-        style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
-        Санкт‑Петербург
-      </a>
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.313887%2C59.947419&mode=routes&rtext=59.966076%2C30.299574~59.930322%2C30.323593&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1118957269&utm_medium=mapframe&utm_source=maps&z=13.73" 
-        style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-        Яндекс Карты
-      </a>
-      <iframe 
-        src="https://yandex.ru/map-widget/v1/?ll=30.313887%2C59.947419&mode=routes&rtext=59.966076%2C30.299574~59.930322%2C30.323593&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1118957269&z=13.73" 
-        width="100%" 
-        height="430" 
-        frameborder="1" 
-        allowfullscreen="true" 
-        style="position:relative;border-radius: 10px;border: none;">
-      </iframe>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
+          style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+          Санкт‑Петербург
+        </a>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.313887%2C59.947419&mode=routes&rtext=59.966076%2C30.299574~59.930322%2C30.323593&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1118957269&utm_medium=mapframe&utm_source=maps&z=13.73" 
+          style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+          Яндекс Карты
+        </a>
+        <iframe 
+          src="https://yandex.ru/map-widget/v1/?ll=30.313887%2C59.947419&mode=routes&rtext=59.966076%2C30.299574~59.930322%2C30.323593&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1118957269&z=13.73" 
+          width="100%" 
+          height="430" 
+          frameborder="1" 
+          allowfullscreen="true" 
+          style="position:relative;border-radius: 10px;border: none;">
+        </iframe>
     </div>
     """
     st.components.v1.html(map_html_2, height=460)
@@ -246,23 +245,23 @@ with col5:
 with col6:
     map_html_3 = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-        style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
-        Санкт‑Петербург
-      </a>
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.320299%2C59.947526&mode=routes&rtext=59.966076%2C30.299574~59.927253%2C30.351826&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1240644306&utm_medium=mapframe&utm_source=maps&z=13.19" 
-        style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-        Яндекс Карты
-      </a>
-      <iframe 
-        src="https://yandex.ru/map-widget/v1/?ll=30.320299%2C59.947526&mode=routes&rtext=59.966076%2C30.299574~59.927253%2C30.351826&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1240644306&z=13.19" 
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
+          style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+          Санкт‑Петербург
+        </a>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.320299%2C59.947526&mode=routes&rtext=59.966076%2C30.299574~59.927253%2C30.351826&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1240644306&utm_medium=mapframe&utm_source=maps&z=13.19" 
+          style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+          Яндекс Карты
+        </a>
+        <iframe 
+          src="https://yandex.ru/map-widget/v1/?ll=30.320299%2C59.947526&mode=routes&rtext=59.966076%2C30.299574~59.927253%2C30.351826&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1240644306&z=13.19" 
           width="100%" 
           height="430" 
           frameborder="1" 
           allowfullscreen="true" 
           style="position:relative;border-radius: 10px;border: none;">
         </iframe>
-      </div>
+    </div>
     """
     st.components.v1.html(map_html_3, height=460)
 
@@ -305,22 +304,22 @@ with col7:
 with col8:
     map_html_4 = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-        style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
-        Санкт‑Петербург
-      </a>
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.318770%2C59.938256&mode=routes&rtext=59.966076%2C30.299574~59.910432%2C30.341556&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D64108962043&utm_medium=mapframe&utm_source=maps&z=13.27" 
-        style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-        Яндекс Карты
-      </a>
-      <iframe 
-        src="https://yandex.ru/map-widget/v1/?ll=30.318770%2C59.938256&mode=routes&rtext=59.966076%2C30.299574~59.910432%2C30.341556&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D64108962043&z=13.27" 
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
+          style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+          Санкт‑Петербург
+        </a>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.318770%2C59.938256&mode=routes&rtext=59.966076%2C30.299574~59.910432%2C30.341556&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D64108962043&utm_medium=mapframe&utm_source=maps&z=13.27" 
+          style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+          Яндекс Карты
+        </a>
+        <iframe 
+          src="https://yandex.ru/map-widget/v1/?ll=30.318770%2C59.938256&mode=routes&rtext=59.966076%2C30.299574~59.910432%2C30.341556&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D64108962043&z=13.27" 
           width="100%" 
           height="430" 
           frameborder="1" 
           allowfullscreen="true" 
           style="position:relative;border-radius: 10px;border: none;">
-      </iframe>
+        </iframe>
     </div>
     """
     st.components.v1.html(map_html_4, height=460)
@@ -364,25 +363,26 @@ with col9:
 with col10:
     map_html_5 = """
     <div style="position:relative;overflow:hidden;border-radius: 10px;">
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
-        style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
-        Санкт‑Петербург
-      </a>
-      <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.313887%2C59.939311&mode=routes&rtext=59.966076%2C30.299574~59.911288%2C30.316130&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1002219955&utm_medium=mapframe&utm_source=maps&z=13.24" 
-        style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
-        Яндекс Карты
-      </a>
-      <iframe 
-        src="https://yandex.ru/map-widget/v1/?ll=30.313887%2C59.939311&mode=routes&rtext=59.966076%2C30.299574~59.911288%2C30.316130&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1002219955&z=13.24" 
-        width="100%" 
-        height="430" 
-        frameborder="1" 
-        allowfullscreen="true" 
-        style="position:relative;border-radius: 10px;border: none;">
-      </iframe>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" 
+          style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:10;">
+          Санкт‑Петербург
+        </a>
+        <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.313887%2C59.939311&mode=routes&rtext=59.966076%2C30.299574~59.911288%2C30.316130&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1002219955&utm_medium=mapframe&utm_source=maps&z=13.24" 
+          style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:10;">
+          Яндекс Карты
+        </a>
+        <iframe 
+          src="https://yandex.ru/map-widget/v1/?ll=30.313887%2C59.939311&mode=routes&rtext=59.966076%2C30.299574~59.911288%2C30.316130&rtt=mt&ruri=ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638~ymapsbm1%3A%2F%2Forg%3Foid%3D1002219955&z=13.24" 
+          width="100%" 
+          height="430" 
+          frameborder="1" 
+          allowfullscreen="true" 
+          style="position:relative;border-radius: 10px;border: none;">
+        </iframe>
     </div>
     """
     st.components.v1.html(map_html_5, height=460)
+
 st.divider()
 
 st.markdown("**Контакты для связи:**")
