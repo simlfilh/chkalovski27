@@ -146,7 +146,7 @@ with col2:
         </iframe>
       </div>
       """
-  st.components.v1.html(map_html_1, height=460)
+   st.components.v1.html(map_html_1, height=460)
 
 st.divider()
 
