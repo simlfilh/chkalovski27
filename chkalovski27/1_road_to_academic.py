@@ -107,7 +107,7 @@ with col1:
                 <h4>🗺️ Маршрут от Чкаловского пр., д. 27</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~4.5 км</strong></span>
+                    <span><strong>~5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
@@ -166,7 +166,7 @@ with col3:
                 <h4>🗺️ Маршрут от Чкаловского пр., д. 27</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~4.5 км</strong></span>
+                    <span><strong>~6 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
@@ -225,11 +225,11 @@ with col5:
                 <h4>🗺️ Маршрут от Чкаловского пр., д. 27</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~5 км</strong></span>
+                    <span><strong>~6.5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~30-35 мин</strong></span>
+                    <span><strong>~35-40 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
@@ -284,11 +284,11 @@ with col7:
                 <h4>🗺️ Маршрут от Чкаловского пр., д. 27</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~6 км</strong></span>
+                    <span><strong>~8.5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~35-40 мин</strong></span>
+                    <span><strong>~40-45 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
@@ -343,11 +343,11 @@ with col9:
                 <h4>🗺️ Маршрут от Чкаловского пр., д. 27</h4>
                 <div class="route-detail">
                     <span>📏 Расстояние:</span>
-                    <span><strong>~6.5 км</strong></span>
+                    <span><strong>~7.5 км</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>⏱️ Время в пути:</span>
-                    <span><strong>~35-40 мин</strong></span>
+                    <span><strong>~40 мин</strong></span>
                 </div>
                 <div class="route-detail">
                     <span>🚌 Способ:</span>
