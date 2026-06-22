@@ -41,6 +41,19 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.divider()
 
+st.markdown("""
+        <div class="colored-container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <a href="https://max.ru/id7840483155_gos17" target="_blank">
+                        <i class="fas fa-comment-dots fa-2x" style="color: #00BFFF;"></i>
+                    </a>
+                    <h3>Канал "Общежития СПбГЭУ" в MAX.</h3>
+                </div>
+        </div>
+                """, unsafe_allow_html=True)
+st.divider()
+
 st.markdown("**Контакты для связи:**")
 st.write("Заведующий общежитием: Беззубова Зоя Николаевна 👩🏼‍💼")
 st.markdown("""
