@@ -85,11 +85,11 @@ with col2:
             </a>
             <iframe 
                 src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=30.306299%2C59.966734&mode=routes&rtext=59.966204%2C30.311702~59.966076%2C30.299574&rtt=mt&ruri=ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstation__9805891~ymapsbm1%3A%2F%2Forg%3Foid%3D1039493638&z=16.72" 
-                width="560" 
+                width="100%" 
                 height="400" 
                 frameborder="1" 
                 allowfullscreen="true" 
-                style="position:relative;">
+                style="position:relative;border-radius: 10px;border: none;">
             </iframe>
         </div>
                     """, height=440)
