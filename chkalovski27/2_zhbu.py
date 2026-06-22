@@ -92,6 +92,7 @@ with col2:
             style="position:relative;border-radius: 10px;border: none;">
         </iframe>
                     """, height=300)
+st.divider()
 
 st.markdown("""
     <div class="colored-container">
