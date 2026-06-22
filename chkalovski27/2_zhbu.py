@@ -86,7 +86,7 @@ with col2:
         <iframe 
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1e2590fd5b6de05293321a22e9c4acfacdbff29dfc50eef266e905a4b03ac5e&amp;source=constructor" 
             width="100%" 
-            height="300" 
+            height="399" 
             frameborder="1" 
             allowfullscreen="true" 
             style="position:relative;border-radius: 10px;border: none;">
